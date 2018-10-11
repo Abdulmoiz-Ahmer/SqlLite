@@ -1,5 +1,5 @@
 # SqlLite
-A  demonstration of Sqllite.
+A  demonstration of Sqllite in android using java.
 
 ![screenshot_2018-10-11-15-22-57](https://user-images.githubusercontent.com/43717814/46798052-4143f400-cd6a-11e8-9d5d-0f3a08f9b922.png)
 ![screenshot_2018-10-11-15-23-55](https://user-images.githubusercontent.com/43717814/46798053-4143f400-cd6a-11e8-90f0-855ad7839223.png)
