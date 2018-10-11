@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TaskFive</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="database_name">EmployeeRecords</string>
+    <string name="column_1">Id Integer primary key</string>
+    <string name="column_2">FirstName Text</string>
+    <string name="column_3">LastName Text</string>
+    <string name="column_4">Occupation Text</string>
+    <string name="table_name">Employees</string>
+</resources>

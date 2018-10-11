@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggreen"
+    tools:context=".Update">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/float_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="center"
+            app:srcCompat="@drawable/ic_account_circle_black_24dp"
+            app:backgroundTint="@android:color/holo_green_light"
+            android:tint="@android:color/white"
+            app:fabSize="normal"
+            app:layout_anchor="@id/cardView"
+            app:layout_anchorGravity="center|top"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <android.support.v7.widget.CardView
+            android:padding="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp"
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <GridLayout
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"
+                android:columnCount="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_green_light"
+                    android:text="First Name"
+                    />
+
+                <EditText
+                    android:id="@+id/firstname_edt"
+                    android:hint="Enter First Name Here!"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@android:color/holo_green_light"
+                    android:textColor="@android:color/holo_green_light"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_green_light"
+                    android:text="Last Name"
+                    />
+
+                <EditText
+                    android:id="@+id/lastname_edt"
+                    android:hint="Enter Name Here!"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@android:color/holo_green_light"
+                    android:textColor="@android:color/holo_green_light"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_green_light"
+                    android:text="Age"
+                    />
+
+                <EditText
+                    android:id="@+id/age_edt"
+                    android:hint="Enter Age Here!"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@android:color/holo_green_light"
+                    android:textColor="@android:color/holo_green_light"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_green_light"
+                    android:text="Occupation"
+                    />
+
+                <EditText
+                    android:id="@+id/occupation_edt"
+                    android:hint="Enter Occupation Here!"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@android:color/holo_green_light"
+                    android:textColor="@android:color/holo_green_light"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_green_light"
+                    android:text="About Me"
+                    />
+
+                <EditText
+                    android:id="@+id/about_me_edt"
+                    android:textColorHint="@android:color/holo_green_light"
+                    android:hint="About Me!"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:inputType="text|textMultiLine"
+                    android:textColor="@android:color/holo_green_light"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    />
+
+                <Button
+                    android:id="@+id/update_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_green_light"
+                    />
+
+            </GridLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>
